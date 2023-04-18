@@ -2,7 +2,6 @@ import pytest
 from selenium.webdriver.common.by import By
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
-link = 'https://docs.pytest.org/en/latest/explanation/flaky.html#plugins'
 
 
 def test_visibility_of_button_for_adding_to_basket(browser):
